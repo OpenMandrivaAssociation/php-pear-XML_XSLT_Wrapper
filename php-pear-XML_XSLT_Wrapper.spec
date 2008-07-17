@@ -7,7 +7,7 @@
 Summary:	%{_pearname} - single interface to the different XSLT interface or commands
 Name:		php-pear-%{_pearname}
 Version:	0.2.1
-Release:	%mkrel 7
+Release:	%mkrel 8
 License:	PHP License
 Group:		Development/PHP
 Source0:	http://pear.php.net/get/%{_pearname}-%{version}.tar.bz2
@@ -17,7 +17,7 @@ Requires(preun): php-pear
 Requires:	php-pear
 BuildArch:	noarch
 BuildRequires:	dos2unix
-BuildRoot:	%{_tmppath}/%{name}-%{version}-buildroot
+BuildRoot:	%{_tmppath}/%{name}-%{version}-%{release}-buildroot
 
 %description
 This package was written to provide a simpler, cross-library and cross
