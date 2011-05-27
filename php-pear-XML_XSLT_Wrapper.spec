@@ -6,7 +6,7 @@
 
 Name:		php-pear-%{upstream_name}
 Version:	0.2.2
-Release:	%mkrel 4
+Release:	%mkrel 5
 Summary:	Single interface to the different XSLT interface or commands
 License:	PHP License
 Group:		Development/PHP
