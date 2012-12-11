@@ -78,3 +78,75 @@ fi
 %{_datadir}/pear/packages/%{upstream_name}.xml
 
 
+
+
+%changelog
+* Fri Dec 16 2011 Oden Eriksson <oeriksson@mandriva.com> 0.2.2-6mdv2012.0
++ Revision: 742315
+- fix major breakage by careless packager
+
+* Fri May 27 2011 Oden Eriksson <oeriksson@mandriva.com> 0.2.2-5
++ Revision: 679617
+- mass rebuild
+
+* Tue Dec 07 2010 Oden Eriksson <oeriksson@mandriva.com> 0.2.2-4mdv2011.0
++ Revision: 613802
+- the mass rebuild of 2010.1 packages
+
+* Wed Nov 11 2009 Guillaume Rousse <guillomovitch@mandriva.org> 0.2.2-3mdv2010.1
++ Revision: 464972
+- spec cleanup
+- use pear installer
+- don't ship tests, even in documentation
+- own all directories
+- use rpm filetriggers starting from mandriva 2010.1
+
+* Tue Sep 15 2009 Thierry Vignaud <tv@mandriva.org> 0.2.2-2mdv2010.0
++ Revision: 441771
+- rebuild
+
+* Mon Apr 20 2009 Raphaël Gertz <rapsys@mandriva.org> 0.2.2-1mdv2009.1
++ Revision: 368305
+- Update php pear XML_XSLT_Wrapper to 0.2.2 version
+
+* Thu Jan 01 2009 Oden Eriksson <oeriksson@mandriva.com> 0.2.1-9mdv2009.1
++ Revision: 323007
+- rebuild
+
+* Thu Jul 17 2008 Oden Eriksson <oeriksson@mandriva.com> 0.2.1-8mdv2009.0
++ Revision: 237175
+- rebuild
+
+  + Olivier Blin <blino@mandriva.org>
+    - restore BuildRoot
+
+  + Thierry Vignaud <tv@mandriva.org>
+    - kill re-definition of %%buildroot on Pixel's request
+
+
+* Sat Nov 11 2006 Oden Eriksson <oeriksson@mandriva.com> 0.2.1-7mdv2007.0
++ Revision: 82966
+- Import php-pear-XML_XSLT_Wrapper
+
+* Fri Feb 10 2006 Oden Eriksson <oeriksson@mandriva.com> 0.2.1-7mdk
+- new group (Development/PHP)
+
+* Fri Aug 26 2005 Oden Eriksson <oeriksson@mandriva.com> 0.2.1-6mdk
+- rebuilt to fix auto deps
+
+* Wed Aug 10 2005 Oden Eriksson <oeriksson@mandriva.com> 0.2.1-5mdk
+- rebuilt to use new pear auto deps/reqs from pld
+
+* Sun Jul 31 2005 Oden Eriksson <oeriksson@mandriva.com> 0.2.1-4mdk
+- fix deps
+
+* Thu Jul 21 2005 Oden Eriksson <oeriksson@mandriva.com> 0.2.1-3mdk
+- reworked the %%post and %%preun stuff, like in conectiva
+- fix deps
+
+* Wed Jul 20 2005 Oden Eriksson <oeriksson@mandriva.com> 0.2.1-2mdk
+- fix deps
+
+* Tue Jul 19 2005 Oden Eriksson <oeriksson@mandriva.com> 0.2.1-1mdk
+- initial Mandriva package (PLD import)
+
