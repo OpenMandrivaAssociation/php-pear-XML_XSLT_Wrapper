@@ -9,7 +9,7 @@ Summary:	Single interface to the different XSLT interface or commands
 License:	PHP License
 Group:		Development/PHP
 Source0:	http://pear.php.net/get/%{upstream_name}-%{version}.tgz
-URL:		http://pear.php.net/package/XML_XSLT_Wrapper/
+URL:		https://pear.php.net/package/XML_XSLT_Wrapper/
 Requires(post): php-pear
 Requires(preun): php-pear
 Requires:	php-pear
